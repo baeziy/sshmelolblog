@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
-baseURL = "https://baeziy.github.io/sshmelolblog"
+baseURL = "https://sshme.lol"
 defaultContentLanguage = "en"
 
 theme = "congo"

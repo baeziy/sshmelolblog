@@ -11,19 +11,46 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "/whoami"
+  pageRef = "about"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "/archive"
+  pageRef = "archive"
   weight = 20
 
 [[main]]
-  name = "Tags"
+  name = "/tags"
   pageRef = "tags"
   weight = 30
+
+[[main]]
+  name = "contact"
+  url = "mailto:sshmelol@gmail.com"
+  weight = 40
+  [main.params]
+    icon = "email" # uses Lucide icons; "terminal" looks nice
+    showName = true
+    target = "_blank"
+
+[[main]]
+  name = "Hack The Box"
+  url = "https://app.hackthebox.com/profile/1678797"
+  weight = 40
+  [main.params]
+    icon = "hackthebox" # uses Lucide icons; "terminal" looks nice
+    showName = false
+    target = "_blank"
+
+[[main]]
+  name = "TryHackMe"
+  url = "https://tryhackme.com/p/sshme"
+  weight = 40
+  [main.params]
+    icon = "tryhackme"
+    showName = false
+    target = "_blank"
 
 [[main]]
   identifier = "search"
