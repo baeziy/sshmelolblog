@@ -27,7 +27,7 @@
 
 [[main]]
   name = "contact"
-  url = "mailto:sshmelol@gmail.com"
+  url = "mailto:sshme.lol@gmail.com"
   weight = 40
   [main.params]
     icon = "email" # uses Lucide icons; "terminal" looks nice
