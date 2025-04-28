@@ -6,6 +6,7 @@ baseURL = "https://sshme.lol"
 defaultContentLanguage = "en"
 
 theme = "congo"
+titleCaseStyle = 'none'
 enableRobotsTXT = true
 summaryLength = 0
 
