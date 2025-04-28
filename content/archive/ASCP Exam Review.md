@@ -3,12 +3,13 @@ title: "Cracking the ASCP: My APIsec University Journey"
 date: 2025-04-28
 draft: false
 tags:
-  - examreview
-  - apisec
+  - api-security
+categories: Exam Reviews
 ---
-![Image Description](/images/Pasted%20image%2020250428155533.png)
-So, you’ve heard about API security being the next big thing in tech - but where do you even start? Let me introduce you to [**APIsec University**](https://www.apisecuniversity.com/), the free, no-strings-attached training hub that’s like the Hogwarts of API hacking. Seriously, whether you’re a newbie or a seasoned pro, they’ve got courses that’ll turn you into an API security wizard. And did I mention it’s _completely free_? Isn't that so cool?
+![Image Description](/images/apisec_badge.png)
 
+So, you’ve heard about API security being the next big thing in tech - but where do you even start? Let me introduce you to [**APIsec University**](https://www.apisecuniversity.com/), the free, no-strings-attached training hub that’s like the Hogwarts of API hacking. Seriously, whether you’re a newbie or a seasoned pro, they’ve got courses that’ll turn you into an API security wizard. And did I mention it’s _completely free_? Isn't that so cool?
+***
 ## Choosing Your Challenge: The Certifications
 
 APIsec University offers a few different certifications, letting you choose the level that fits your experience:
@@ -17,6 +18,8 @@ APIsec University offers a few different certifications, letting you choose the 
 - **APIsec Certified Practitioner (ACP):** The next step up. This involves completing five specific core courses and then passing a 100-question exam based on that material. It shows you've grasped a broader range of APIsec concepts.
 - **API Security Certified Professional (ASCP):** This is the most advanced, hands-on certification they offer. It's not a multiple-choice test; it's a practical, 12-hour penetration testing exam where you assess two live API applications.
 
+Btw, I passed all three certs 😎
+***
 ## A Closer Look at the ASCP Exam
 
 The [ASCP exam](https://www.apisecuniversity.com/courses/api-security-certified-professional-exam) was the one that really caught my interest because it mirrors real-world work. You schedule a 12-hour window that works for you, and then you dive into testing two custom-built applications. The goal is to find vulnerabilities and submit specific "flags" as proof.
@@ -26,7 +29,7 @@ One aspect I really appreciated is that it's completely open-book. You can have 
 What makes the ASCP feel relevant is its focus on realistic scenarios. You often need to chain multiple findings together to exploit deeper issues, which is very typical of actual API penetration tests.
 
 The exam costs $450, and it includes one free retake if you need it. It's worth keeping an eye on the official APIsec University Discord channel and their LinkedIn page, as they occasionally run scholarship contests or give away free exam vouchers. I was fortunate enough to get a scholarship myself, which covered the cost.
-
+***
 ## My Experience with the ASCP Exam
 
 ![Image Description](/images/hacker%20hacking%20GIF.gif)
@@ -49,7 +52,7 @@ Even though I knew I'd passed at that point, I wanted to push further and see ho
 Time officially ran out at **10:30 PM**. I didn't manage to get the final eighth flag, but I finished feeling accomplished having passed with 7 out of 8.
 
 What really stood out during the exam, especially looking back at the flag times, was how discovering one vulnerability often provided clues or access needed for the next. It wasn't just about finding isolated bugs; it was about understanding the flow, seeing how different API endpoints connected, and figuring out how one weakness could be leveraged to find another. Making quick notes about any unusual responses or interesting endpoints definitely helped connect the dots, especially during the longer gaps between flags. It really reinforced that the exam is designed to mimic the logical process of testing real APIs.
-
+***
 ## How I Prepared
 
 ![Image Description](/images/study%20dancing%20GIF.gif)
@@ -63,7 +66,7 @@ My preparation involved using a few different resources:
 - **PortSwigger's Web Security Academy API Labs:** These labs helped solidify my understanding of specific vulnerability types in APIs.
 
 Combining structured learning from the courses and book with lots of hands-on practice in the labs and CTFs felt like the right approach.
-
+***
 ## What You Get When You Pass
 
 Successfully passing the ASCP exam earns you more than just validation of your skills. You receive:
@@ -71,8 +74,10 @@ Successfully passing the ASCP exam earns you more than just validation of your s
 - A **digital Credly badge** you can share on LinkedIn or other platforms.
 - A **physical certificate** and a **collectible challenge coin** (isn't that so prettyy) mailed to you by APIsec University.
 
-![Image Description](/images/Pasted%20image%2020250428155602.png)
+![Image Description](/images/Pasted%20image%2020250428155533.png)
 
+![Image Description](/images/Pasted%20image%2020250428155602.png)
+***
 ## Final Thoughts
 The ASCP isn’t easy, but it’s doable if you prep smart. Focus on hands-on practice, keep your tools handy, and don’t overthink it. And if you’re stuck during the exam? Take a breath - sometimes a coffee break is the best debugging tool.
 

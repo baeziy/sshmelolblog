@@ -26,6 +26,12 @@
   weight = 30
 
 [[main]]
+  name = "/categories"
+  pageRef = "categories"
+  weight = 30
+
+
+[[main]]
   name = "contact"
   url = "mailto:sshme.lol@gmail.com"
   weight = 40
